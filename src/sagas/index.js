@@ -8,3 +8,4 @@ export {shippingSaga} from './shippingSaga';
 export {taxRateSaga} from './taxRateSaga';
 export {checkoutAvailabilitySaga} from './checkoutAvailabilitySaga';
 export {checkoutSaga} from './checkoutSaga';
+export {addItemSaga, addItemSuccessSaga} from './addItemSaga';

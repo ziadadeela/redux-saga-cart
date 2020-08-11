@@ -1,10 +1,10 @@
 import { connect } from 'react-redux'
 import {
-    MainDisplay
-} from './MainDisplay';
+    CheckoutDisplay
+} from './CheckoutDisplay';
 
 import {
-    
+
 } from './../../actions'
 
 import {
@@ -17,10 +17,10 @@ const mapStateToProps = (state) => {
     }
 };
 const mapDispatchToProps = (dispatch) => ({
-    
+
 });
 
-export const MainContainer = connect(
+export const CheckoutContainer = connect(
     mapStateToProps,
     mapDispatchToProps
-)(MainDisplay);
+)(CheckoutDisplay);

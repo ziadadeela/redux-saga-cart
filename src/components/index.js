@@ -1,4 +1,4 @@
-export { MainContainer } from './Main/';
+export { CheckoutContainer } from './Checkout/';
 export { App } from './App'
 export { UserInfoContainer } from './UserInfo/';
 export { CartItemListContainer } from './CartItemList/';

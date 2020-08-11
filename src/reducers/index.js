@@ -11,3 +11,4 @@ export { isCheckingOut } from './isCheckingOut';
 export { canCheckOut } from './canCheckOut';
 export { customerServiceAvailability } from './customerServiceAvailability';
 export { checkoutPhase } from './checkoutPhase';
+export { isBlockedUI } from './isBlockedUI';

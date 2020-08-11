@@ -1,10 +1,11 @@
-import { fromJS } from 'immutable'
+import {fromJS} from 'immutable'
 // TODO... finalize value list
 export const defaultState = fromJS({
-    currentUser:null,
-    cartItems:null,
-    items:[],
-    itemPrices:[],
-    taxRates:[],
-    shippingTotal:0,
+    currentUser: null,
+    cartItems: null,
+    items: [],
+    itemPrices: [],
+    taxRates: [],
+    shippingTotal: 0,
+    isBlockedUI: false,
 });
